@@ -2,7 +2,7 @@ import React from "react";
 
 const UserAvatar = ({ image, name, subscription }) => {
   return (
-    <div className="flex flex-col ">
+    <div className="flex flex-col w-f justify-end">
       <img src={image} alt="" />
       <h2 className="text-2xl">{name}</h2>
       <p className="text-gray-600 text-xl"> {subscription}</p>

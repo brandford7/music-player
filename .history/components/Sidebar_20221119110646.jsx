@@ -11,31 +11,28 @@ import { RiSearchFill } from "react-icons/ri";
 
 const Sidebar = () => {
   return (
-    <div className="flex flex-col space-y-20 bg-blue-400 p-5  w-56 h-screen">
+    <div className="flex flex-col space-y-20 bg-blue-400 p-5  w-56">
       <section>
         <h1 className="text-3xl italic">Musix</h1>
       </section>
       <section>
         <h2 className="mb-4 text-2xl">Menu</h2>
         <ul className="space-y-2">
-          <li>
-            <Link href="/" className="flex items-center cursor-pointer ">
+          <li className="flex items-center cursor-pointer ">
+            <Link href="/">
+              {" "}
               <AiFillHome />
               Home
             </Link>
           </li>
-
+        
+          
           <li className="flex items-center cursor-pointer">
-            <Link href="/library" className="flex items-center cursor-pointer ">
-              <MdLibraryMusic />
-              Library
-            </Link>
+            <MdLibraryMusic />
+            Library
           </li>
-          <li>
-            <Link
-              href="/playlist"
-              className="flex items-center cursor-pointer "
-            >
+          <li className="flex items-center cursor-pointer">
+            <Link href="/playlist">
               <MdLibraryAdd />
               Create Playlist
             </Link>
@@ -45,25 +42,14 @@ const Sidebar = () => {
       <section>
         <h2 className="mb-4 text-2xl">General</h2>
         <ul className="space-y-2">
-          <li>
-            
-            <Link
-              href="/subscription"
-              className="flex items-center cursor-pointer "
-            >
-              <MdSubscriptions />
-              Subscription
-            </Link>
+         
+          <li className="flex items-center ">
+            <MdSubscriptions />
+            Subscription
           </li>
-          <li>
-            <Link
-              href=""
-              className="flex items-center cursor-pointer "
-            >
-              
-              <MdLogout />
-              Log Out
-            </Link>
+          <li className="flex items-center ">
+            <MdLogout />
+            Log Out
           </li>
         </ul>
       </section>

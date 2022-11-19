@@ -46,7 +46,7 @@ const Sidebar = () => {
         <h2 className="mb-4 text-2xl">General</h2>
         <ul className="space-y-2">
           <li>
-            
+            {" "}
             <Link
               href="/subscription"
               className="flex items-center cursor-pointer "
@@ -57,7 +57,7 @@ const Sidebar = () => {
           </li>
           <li>
             <Link
-              href=""
+              href="/playlist"
               className="flex items-center cursor-pointer "
             >
               

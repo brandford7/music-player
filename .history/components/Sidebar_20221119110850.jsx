@@ -18,7 +18,7 @@ const Sidebar = () => {
       <section>
         <h2 className="mb-4 text-2xl">Menu</h2>
         <ul className="space-y-2">
-          <li>
+          <li >
             <Link href="/" className="flex items-center cursor-pointer ">
               <AiFillHome />
               Home
@@ -26,16 +26,11 @@ const Sidebar = () => {
           </li>
 
           <li className="flex items-center cursor-pointer">
-            <Link href="/library" className="flex items-center cursor-pointer ">
-              <MdLibraryMusic />
-              Library
-            </Link>
+            <MdLibraryMusic />
+            Library
           </li>
-          <li>
-            <Link
-              href="/playlist"
-              className="flex items-center cursor-pointer "
-            >
+          <li className="flex items-center cursor-pointer">
+            <Link href="/playlist">
               <MdLibraryAdd />
               Create Playlist
             </Link>
@@ -45,25 +40,13 @@ const Sidebar = () => {
       <section>
         <h2 className="mb-4 text-2xl">General</h2>
         <ul className="space-y-2">
-          <li>
-            
-            <Link
-              href="/subscription"
-              className="flex items-center cursor-pointer "
-            >
-              <MdSubscriptions />
-              Subscription
-            </Link>
+          <li className="flex items-center ">
+            <MdSubscriptions />
+            Subscription
           </li>
-          <li>
-            <Link
-              href=""
-              className="flex items-center cursor-pointer "
-            >
-              
-              <MdLogout />
-              Log Out
-            </Link>
+          <li className="flex items-center ">
+            <MdLogout />
+            Log Out
           </li>
         </ul>
       </section>

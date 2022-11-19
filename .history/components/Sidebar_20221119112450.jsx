@@ -57,7 +57,7 @@ const Sidebar = () => {
           </li>
           <li>
             <Link
-              href=""
+              href="/playlist"
               className="flex items-center cursor-pointer "
             >
               

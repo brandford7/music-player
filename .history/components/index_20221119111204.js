@@ -5,5 +5,3 @@ export { default as MusicButton } from './MusicButton';
 export { default as SongList } from './SongList';
 export { default as PlaylistComponent } from './PlaylistComponent';
 export { default as LibraryComponent } from './LibraryComponent';
-export { default as SubscriptionComponent } from './SubscriptionComponent';
-export { default as Plans} from './Plans';

@@ -26,7 +26,10 @@ const Sidebar = () => {
           </li>
 
           <li className="flex items-center cursor-pointer">
-            <Link href="/library" className="flex items-center cursor-pointer ">
+            <Link
+              href="/library"
+              className="flex items-center cursor-pointer "
+            >
               <MdLibraryMusic />
               Library
             </Link>
@@ -45,25 +48,16 @@ const Sidebar = () => {
       <section>
         <h2 className="mb-4 text-2xl">General</h2>
         <ul className="space-y-2">
-          <li>
-            
-            <Link
-              href="/subscription"
-              className="flex items-center cursor-pointer "
-            >
-              <MdSubscriptions />
-              Subscription
-            </Link>
+          <li className="flex items-center ">
+            <MdSubscriptions />
+            Subscription
           </li>
-          <li>
-            <Link
-              href=""
+          <li className="flex items-center ">
+          <Link
+              href="/playlist"
               className="flex items-center cursor-pointer "
-            >
-              
-              <MdLogout />
-              Log Out
-            </Link>
+            ></Link>    <MdLogout />
+            Log Out
           </li>
         </ul>
       </section>
