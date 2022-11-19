@@ -7,4 +7,4 @@ export { default as PlaylistComponent } from './PlaylistComponent';
 export { default as LibraryComponent } from './LibraryComponent';
 export { default as SubscriptionComponent } from './SubscriptionComponent';
 export { default as Plans } from './Plans';
-export { default as Card} from './Card';
+export { default as Card} from 
